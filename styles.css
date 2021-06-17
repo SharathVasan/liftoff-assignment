@@ -1,0 +1,1063 @@
+/* Importing Styles for Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+/* Importing fonts from local files */
+@font-face{
+    font-family: JenWagor;
+    src: url(./Jen\ Wagner\ Co.\ -\ Palmer\ Lake\ Print\ Regular.otf);
+    font-weight: light, regular, medium, bold;
+}
+
+@font-face{
+    font-family: BrandonB;
+    src: url(./HVD\ Fonts\ -\ BrandonGrotesque-Medium.otf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: Brandon;
+    src: url(./brandon-grotesque-light-58a8a4b38001d.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Sofia;
+    src : url(./Mostardesign\ -\ Sofia\ Pro\ Medium.otf);
+}
+
+/* Clearing the default Browser Margins */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Styling the Navbar Container */
+.navbar {
+    flex: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    z-index: 200;
+    background-color: #15364c;
+    margin-bottom: 0px;
+
+}
+
+/* Styling the link element "Book a session" in the navbar */
+.navbar a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    z-index: 200;
+    margin-left: 50px;
+}
+
+/* Styling the title "okay humans" in the navbar */
+.navbar h1{
+    font-family: Sofia;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    width: 23%;
+    z-index: 200;
+}
+
+/* Styling the Menu icon in the navbar */
+.navbar span, span:hover{
+    color: white;
+    cursor: pointer;
+    z-index: 200;
+    margin-right: 50px;
+    background-color: #15364c;
+}
+
+/* Styling the Cover Image */
+.coverimage img{
+    margin-top: -50px;
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    object-fit: cover;
+}
+
+/* Start of Styling Section 1 */
+#section1 {
+    background-image: #fff;
+    height: fit-content ;
+    text-align: center;
+}
+
+/* Styling the heading "Want to know the Okay Humans" in Section 1 */
+#section1 h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: BrandonB;
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    color: #15364c;
+    text-shadow: 4px 4px #f8e8e8;
+}
+
+/* Styling the image in section 1 */
+#section1 img{
+    padding-top: 50px;
+    width: 50%;
+}
+
+/* Styling the heading "here's what you need to know" in section 1 */
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+    position: relative;
+    padding: 0px 10px;
+}
+
+h3:before {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: #e2e0df;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+h3:after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: #e2e0df;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+span {
+    background: #fff;
+}
+
+/* Styling the paragraph in section 1 */
+#section1 p{
+    color: #2e6079;
+    font-size: 16px;
+    line-height: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+/* Styling the button in section 1 */
+#section1 button {
+    margin: 30px auto;
+    width: 500px;
+    height: 30px;
+    background-color: #e8d0cd;
+    color: #15364c;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+/* Start of Styling Section 2 */
+#section2{
+    background: #f8f6f4;
+    height: fit-content;
+}
+
+/* Styling heading "Our Story" in section 2 */
+#section2 h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 30px auto 20px auto;
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+    position: relative;
+    padding: 20px 10px;
+}
+
+#section2 h3:before {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: #e2e0df;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+#section2 h3:after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: #e2e0df;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+#section2 span {
+    background: #f8f6f4;
+}
+
+/* Styling paragraph in section 2 */
+#section2 p{
+    color: #2e6079;
+    font-size: 16px;
+    line-height: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+/* Styling tha containers in section 2 */
+.part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Styling the image in section 2 */
+.part img{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+/* styling the paragraphs in the container in section 2 */
+.part p{
+    color: #2e6079;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+
+/* Styling the final funky text in section 2 */
+.funky {
+    font-family: JenWagor;
+    margin: 30px auto 0px auto;
+    padding-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#15364c;
+    font-size: 30px;
+}
+
+/* Start of Styling Section 3 */
+
+/* Styling the 3 blocks container box */
+.blocks3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+}
+
+/* Styling the image in the blocks */
+.block img {
+    height: 150px;
+    width: 150px;
+}
+
+/* Styling the heading in container blocks */
+.block h4{
+    font-family: 'Times New Roman', Times, serif;
+    color: #15364c;
+    font-weight: 600;
+    font-size: 25px;
+    width: 60%;
+    margin: 15px auto;
+}
+
+/* Styling the paragraph in container blocks */
+.block p{
+    color: #2e6079;
+    font-size: 16px;
+    line-height: 25px;
+    width: 60%;
+    margin: auto;
+}
+
+/* Styling the Button in section 3 */
+#section3 button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 500px;
+    height: 30px;
+    background-color: #e8d0cd;
+    color: #15364c;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+/* Start of Styling Section 4 */
+.section4 {
+    margin: 40px auto 50px auto;
+    background-color: #f8f6f4;
+    padding-bottom: 50px;
+
+}
+
+/* Styling the heading in section 4 */
+.section4 h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 30px auto 0px auto;
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+    position: relative;
+    padding: 20px 10px;
+}
+
+.section4 h3:before {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: #e2e0df;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+.section4 h3:after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: #e2e0df;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+.section4 span {
+    background: #f8f6f4;
+}
+
+/* Styling the second heading in Section 4 */
+.section4 h5{
+    color: #2e6079;
+    font-size: 16px;
+    line-height: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Styling the list containers */
+.listcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    margin: 20px auto 40px auto;
+}
+
+ ul{
+    list-style: none;
+}
+
+ li{
+    padding-left: 0.5em;
+    padding-top: 15px;
+    color: #2e6079;
+    font-size: 16px;
+    line-height: 25px;
+    width: 80%;
+    list-style-type: circle;
+}
+
+/* Start of Styling Section 5 */
+
+/* Styling the image blocks */
+.imageblock {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: nowrap;
+    margin: 50px auto;
+    gap: 20px;  
+}
+
+/* Styling the image inside the image block */
+.imageblock img{
+    height: 250px;
+    width: 200px;
+}
+
+/* Styling the paragraph inside the image block */
+.imageblock p {
+    color: #2e6079;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.section5 {
+    text-align: center;
+}
+
+/* syling the second image in section 5 */
+.section5 img{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* Start of Styling Section 6 */
+.section6 {
+    background-color: #f8f6f4;
+    text-align: center;
+}
+
+/* Styling the top image in  section 6 */
+.section6 img {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 20px auto -20px auto;
+}
+
+/* Styling the heading in section 6 */
+.section6 h5{
+    color: #2e6079;
+    font-size: 16px;
+    line-height: 25px;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+
+/* Styling the list containes in section 6 */
+.listcontainers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 50%;
+    justify-content: center;
+    align-items: top;
+    margin: 0px auto;
+    padding-bottom: 40px;
+}
+
+/* Styling the left part of the list container */
+.container3{
+    width: 55%;
+    text-align: left;
+}
+
+/* Styling the right part of the list container */
+.container4{
+    width: 45%;
+    text-align: left;
+}
+
+/* Start of styling the footer */
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: top;
+    gap: 120px;
+    background-color: #15364c;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    width: 100%;
+}
+
+/* Styling column 1 in footer */
+.column1{
+    vertical-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/* styling the logo in column 1 */
+.column1 img{
+    height: 80px;
+    width: 100px;
+}
+
+/* styling the icons in column 1 */
+.icons {
+    display: flex;
+    gap: 20px;
+    color: grey;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+/* Styling the lists in footer */
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    list-style: none;
+    width: 100%;
+    color: white;
+    padding-top: 6px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+/* Start of Responsive Styling */
+
+/* Responsive design styles for screen size greater then 480px and less than 770 px */
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .navbar {
+        padding-top: 10px;
+    }
+    
+    .navbar a{
+        display: none;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        border-bottom: 1px solid white;
+        z-index: 200;
+        margin-left: 5px;
+    }
+
+    .navbar h1{
+        font-family: Sofia;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 2px;
+        width: 40%;
+        z-index: 200;
+        margin-left: 10px;
+    }
+
+    .coverimage img{
+        width: 100%;
+        height: 300px;
+        z-index: 1;
+        object-fit: cover;
+    }
+  
+    .part{
+        display: block;
+        text-align: center;
+    }
+
+    #section1 h2 {
+        padding-top: 30px;
+        text-align: center;
+        font-family: BrandonB;
+        font-weight: 200;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        color: #15364c;
+        text-shadow: 4px 4px #f8e8e8;
+    
+    }
+
+    #section1 button {
+        margin: 30px auto;
+        width: 200px;
+        height: 30px;
+        background-color: #e8d0cd;
+        color: #15364c;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border-radius: 5px;
+    }
+
+    .part{
+        display: block;
+        text-align: center;
+    }
+
+    .part img{
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .part p{
+        color: #2e6079;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .block{
+        margin: 30px 0px 40px 0px;
+    }
+    
+    .block img {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .block h4{
+        font-family: 'Times New Roman', Times, serif;
+        color: #15364c;
+        font-weight: 600;
+        font-size: 25px;
+        width: 60%;
+        margin: 15px auto;
+    }
+    
+    .block p{
+        color: #2e6079;
+        font-size: 12px;
+        line-height: 25px;
+        width: 60%;
+        margin: auto;
+    }
+    
+    #section3 button{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+        width: 300px;
+        height: 30px;
+        background-color: #e8d0cd;
+        color: #15364c;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border-radius: 5px;
+    }
+
+    .listcontainer {
+        display: block;
+        margin: 20px auto 40px auto;
+        justify-content: center;
+        width: 70%;
+    }
+    
+     ul{
+        list-style: none;
+    }
+    
+     li{
+        width: 100%;
+        padding-left: 0.5em;
+        padding-top: 15px;
+        color: #2e6079;
+        font-size: 16px;
+        line-height: 25px;
+        list-style-type: circle;
+    }
+
+    .imageblock {
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+        gap: 20px;  
+    }
+    
+    .imageblock img{
+        height: 250px;
+        width: 200px;
+    }
+    
+    .imageblock p {
+        color: #2e6079;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: left;
+    }
+    
+    .section5 {
+        text-align: center;
+    }
+    
+    .section5 img{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .section6 h5{
+        color: #2e6079;
+        font-size: 16px;
+        line-height: 25px;
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .listcontainers{
+        display: block;
+        width: 80%;
+        gap: 10px;;
+        margin: 0px auto;
+        padding-bottom: 40px;
+    }
+    
+    .container3{
+        width: 100%;
+        text-align: left;
+    }
+    
+    .container4{
+        width: 100%;
+        text-align: left;
+    }
+    
+  }
+
+/* Responsive design styles for screen size greater then 320px and less than 480 px */
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .navbar {
+        padding-top: 10px;
+    }
+
+    .navbar a{
+        display: none;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        border-bottom: 1px solid white;
+        z-index: 200;
+        margin-left: 5px;
+    }
+
+    .navbar h1{
+        font-family: Sofia;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 2px;
+        width: 40%;
+        z-index: 200;
+        margin-left: 10px;
+    }
+
+    .coverimage img{
+        width: 100%;
+        height: 300px;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    #section1 h2 {
+        padding-top: 30px;
+        text-align: center;
+        font-family: BrandonB;
+        font-weight: 200;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        color: #15364c;
+        text-shadow: 4px 4px #f8e8e8;
+    }
+
+    #section1 button {
+        margin: 30px auto;
+        width: 300px;
+        height: 30px;
+        background-color: #e8d0cd;
+        color: #15364c;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border-radius: 5px;
+    }
+
+    #section2{
+        background: #f8f6f4;
+        height: fit-content;
+        width: 100%;
+    }
+
+    #section2 p{
+        color: #2e6079;
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .part{
+        display: block;
+        text-align: center; 
+    }
+
+    .part img{
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .part p{
+        color: #2e6079;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .blocks3 {
+        display: block;
+        justify-content: center;
+        flex-wrap: nowrap;
+        text-align: center;
+        width: 70%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .block{
+        margin: 30px 0px 40px 0px;
+    }
+    
+    .block img {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .block h4{
+        font-family: 'Times New Roman', Times, serif;
+        color: #15364c;
+        font-weight: 600;
+        font-size: 25px;
+        width: 60%;
+        margin: 15px auto;
+    }
+    
+    .block p{
+        color: #2e6079;
+        font-size: 15px;
+        line-height: 25px;
+        width: 60%;
+        margin: auto;
+    }
+    
+    #section3 button{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+        width: 300px;
+        height: 30px;
+        background-color: #e8d0cd;
+        color: #15364c;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border-radius: 5px;
+    }
+
+    .listcontainer {
+        display: block;
+        margin: 20px auto 40px auto;
+        justify-content: center;
+        width: 70%;
+    }
+    
+     ul{
+        list-style: none;
+    }
+    
+     li{
+        width: 100%;
+        padding-left: 0.5em;
+        padding-top: 15px;
+        color: #2e6079;
+        font-size: 16px;
+        line-height: 25px;
+        list-style-type: circle;
+    }
+
+    .imageblock {
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+        gap: 20px;  
+    }
+    
+    .imageblock img{
+        height: 250px;
+        width: 200px;
+    }
+    
+    .imageblock p {
+        color: #2e6079;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: left;
+    }
+    
+    .section5 {
+        text-align: center;
+    }
+    
+    .section5 img{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .section6 h5{
+        color: #2e6079;
+        font-size: 16px;
+        line-height: 25px;
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .listcontainers{
+        display: block;
+        width: 80%;
+        gap: 10px;;
+        margin: 0px auto;
+        padding-bottom: 40px;
+    }
+    
+    .container3{
+        width: 100%;
+        text-align: left;
+    }
+    
+    .container4{
+        width: 100%;
+        text-align: left;
+    }
+
+    footer {
+        display: block;
+        justify-content: center;
+        align-items: top;
+        gap: 120px;
+        background-color: #15364c;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: white;
+        width: 100%;
+    }
+
+    .column1{
+        vertical-align: center;
+        align-items: center;
+        padding-top: 30px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .column1 img{
+        height: 80px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .icons {
+        display: flex;
+        gap: 20px;
+        color: grey;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .column2{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .column3{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .column4 {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    footer ul{
+        list-style: none;
+    }
+    
+    footer li{
+        list-style: none;
+        width: 100%;
+        color: white;
+        padding-top: 6px;
+        font-weight: 300;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+    
+  }
+
+  /* End of styling */
